@@ -37,7 +37,7 @@ public class JenkinsBuild
     {
         var args = FindArgs();
 
-        string fullPathAndName = args.targetDir + args.appName;
+        string fullPathAndName = args.targetDir + args.appName + ".exe";
         BuildProject(EnabledScenes, fullPathAndName, BuildTargetGroup.Standalone, BuildTarget.StandaloneWindows64, BuildOptions.None);
     }
 
@@ -56,10 +56,6 @@ public class JenkinsBuild
     {
         var returnValue = new Args();
 
-        // find: -executeMethod
-        //   +1: JenkinsBuild.BuildMacOS
-        //   +2: FindTheGnome
-        //   +3: D:\Jenkins\Builds\Find the Gnome\47\output
         string[] args = System.Environment.GetCommandLineArgs();
         var execMethodArgPos = -1;
         bool allArgsFound = false;
