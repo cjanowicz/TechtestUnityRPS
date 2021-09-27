@@ -1,0 +1,1 @@
+D:\Program Files\Unity\2020.3.16f1\Editor\Unity.exe -runTests -batchmode -projectPath D:\Users\Colin\Documents\GitHub\TechtestUnityRPS -testResults D:\Users\Colin\Documents\GitHub\TechtestUnityRPS\results.xml -testPlatform PS4
