@@ -7,7 +7,7 @@ using UnityEngine.TestTools;
 public class ResultsTest
 {
     //These are ugly, but they work for now.
-    //I'll put them into a more elegant loop
+    //I'd put them into a more elegant loop
     //rather than separate functions.
 
     //The below tests check:
